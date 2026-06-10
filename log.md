@@ -3,7 +3,7 @@ title: "second-brain-template-dev — Change Log"
 aliases: []
 tags: []
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-10T16:27:00Z
+updated: 2026-06-10T16:30:00Z
 type: "literature-note"
 id: "202606091422"
 source: ""
@@ -16,6 +16,12 @@ source: ""
 ---
 
 ## 2026-06-10
+
+### 16:30 — ingest obsidian-worklog from inbox
+
+- Problem → inbox/obsidian-worklog.md had incorrect command (`obsidian daily` instead of `obsidian daily:path`), missing table formats and gotchas
+- Fix → wrote `wiki/3.resource/command/obsidian.md` using command.md template, corrected the command, added Work Log/Log table formats, gotchas section. Deleted from inbox
+- Why → obsidian CLI commands are reference material for the daily note workflow
 
 ### 16:27 — fix index.md to match actual disk
 

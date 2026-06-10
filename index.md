@@ -6,7 +6,7 @@ tags:
   - type/resource
   - para/resource
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-10T16:27:00Z
+updated: 2026-06-10T16:30:00Z
 type: "resource"
 id: "202606091422"
 source: ""
@@ -85,6 +85,7 @@ second-brain-template-dev/
     │   │   ├── docker.md
     │   │   ├── git.md
     │   │   ├── kubernetes.md
+    │   │   ├── obsidian.md       ← Obsidian CLI: daily note path, work log
     │   │   └── terraform.md
     │   ├── snippet/
     │   │   ├── bash.md
@@ -113,6 +114,6 @@ second-brain-template-dev/
 | ---------------- | ----- |
 | Root files       | 7     |
 | Templates        | 27    |
-| Wiki files       | 17    |
+| Wiki files       | 18    |
 | Skills           | 29    |
-| Inbox            | 1     |
+| Inbox            | 0     |
