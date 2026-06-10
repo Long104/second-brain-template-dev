@@ -15,7 +15,7 @@ This file is the single source of truth for how any AI assistant operates inside
 ## 1. Vault Overview
 
 ```
-note-2/
+second-brain-template-dev/
 ├── AGENTS.md          ← assistant rules (never modify unless asked)
 ├── SETUP.md            ← quick-start guide (read this first if new)
 ├── index.md            ← vault map (update when structure changes)
