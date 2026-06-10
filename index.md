@@ -6,7 +6,7 @@ tags:
   - type/resource
   - para/resource
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-10T16:30:00Z
+updated: 2026-06-10T16:32:00Z
 type: "resource"
 id: "202606091422"
 source: ""
@@ -69,6 +69,7 @@ second-brain-template-dev/
 │   └── imgs/
 └── wiki/                  ← PARA knowledge base
     ├── 1.project/         ← active projects (empty — no projects yet)
+    │   └── .gitkeep
     ├── 2.area/            ← ongoing responsibilities
     │   ├── blockers.md
     │   ├── daily-schedule.md
@@ -104,6 +105,7 @@ second-brain-template-dev/
     │   ├── tools/
     │   └── reverse-engineer/
     └── 4.archive/         ← inactive items (empty)
+        └── .gitkeep
 ```
 
 ---
@@ -114,6 +116,6 @@ second-brain-template-dev/
 | ---------------- | ----- |
 | Root files       | 7     |
 | Templates        | 27    |
-| Wiki files       | 18    |
+| Wiki files       | 20    |
 | Skills           | 29    |
 | Inbox            | 0     |

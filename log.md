@@ -3,7 +3,7 @@ title: "second-brain-template-dev — Change Log"
 aliases: []
 tags: []
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-10T16:30:00Z
+updated: 2026-06-10T16:32:00Z
 type: "literature-note"
 id: "202606091422"
 source: ""
@@ -16,6 +16,12 @@ source: ""
 ---
 
 ## 2026-06-10
+
+### 16:32 — add .gitkeep to empty wiki folders
+
+- Problem → `wiki/1.project/` and `wiki/4.archive/` are empty, git doesn't track empty directories so they don't appear on GitHub
+- Fix → added `.gitkeep` to both folders, updated index.md tree
+- Why → all four PARA folders must be visible on GitHub for template completeness
 
 ### 16:30 — ingest obsidian-worklog from inbox
 
