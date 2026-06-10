@@ -1,18 +1,18 @@
 ---
-title: "Note-2 — Vault Map"
+title: "second-brain-template-dev — Vault Map"
 aliases:
   - "Vault Map"
 tags:
   - type/resource
   - para/resource
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-09T17:01:00Z
+updated: 2026-06-10T16:27:00Z
 type: "resource"
 id: "202606091422"
 source: ""
 ---
 
-# Note-2 — Vault Map
+# second-brain-template-dev — Vault Map
 
 > Full inventory of this vault's structure. Matches the tree in `AGENTS.md §1`.
 
@@ -21,120 +21,88 @@ source: ""
 ## Structure
 
 ```
-note-2/
-├── AGENTS.md
-├── SETUP.md
-├── README.md
-├── index.md
-├── log.md
-├── inbox/
-├── todo/
+second-brain-template-dev/
+├── AGENTS.md              ← assistant rules (never modify unless asked)
+├── index.md               ← this file
+├── log.md                 ← change log
+├── calendar.md            ← events, deadlines, appointments
+├── README.md              ← vault README
+├── inbox/                 ← capture zone
+│   └── obsidian-worklog.md
+├── todo/                  ← task management
 │   ├── 1.todo.md
-│   ├── 3.done.md
-│   └── plan/
-├── calendar.md
-├── dailyNote/
-├── templates/
-│   ├── daily.md
-│   ├── project.md
-│   ├── area.md
-│   ├── resource-master.md
-│   ├── command.md
-│   ├── snippet.md
-│   ├── tools.md
-│   ├── bookmarks.md
-│   ├── person.md
-│   ├── history.md
+│   └── 3.done.md
+├── dailyNote/             ← daily journal (YYYY-MM-DD.md)
+├── templates/             ← reusable templates (27 files)
 │   ├── archive.md
-│   ├── plan.md
-│   ├── prompt.md
-│   ├── prompt-guide.md
-│   ├── design-system.md
-│   ├── design-reference.md
-│   ├── reverse-engineer.md
-│   ├── docker-guide.md
-│   ├── kubernetes-guide.md
-│   ├── terraform-guide.md
-│   ├── git-workflow-guide.md
+│   ├── area.md
+│   ├── bookmarks.md
 │   ├── ci-cd-guide.md
+│   ├── command.md
+│   ├── daily.md
+│   ├── design-reference.md
+│   ├── design-system.md
+│   ├── docker-guide.md
+│   ├── git-workflow-guide.md
+│   ├── history.md
+│   ├── kubernetes-guide.md
+│   ├── person.md
 │   ├── personal.md
+│   ├── plan.md
+│   ├── project.md
+│   ├── prompt.md
+│   ├── resource-master.md
+│   ├── reverse-engineer.md
+│   ├── snippet.md
+│   ├── terraform-guide.md
+│   ├── tools.md
 │   └── solopreneur/
+│       ├── marketing.md
 │       ├── plan-project.md
 │       ├── research.md
-│       ├── marketing.md
 │       ├── revenue.md
 │       └── todo-feature.md
-├── .opencode/
+├── .opencode/             ← opencode skills + agent config
 │   ├── agents/
-│   │   └── default.md
-│   └── skills/
-│       ├── docker-expert/
-│       ├── kubernetes-specialist/
-│       ├── terraform-module-library/
-│       ├── nodejs-best-practices/
-│       ├── nodejs-backend-patterns/
-│       ├── hono/
-│       ├── golang-design-patterns/
-│       ├── prisma-database-setup/
-│       ├── react-vite-best-practices/
-│       ├── vercel-react-best-practices/
-│       ├── shadcn/
-│       ├── frontend-design/
-│       ├── security-best-practices/
-│       ├── improve-codebase-architecture/
-│       ├── create-pull-request/
-│       ├── pull-request-automation/
-│       ├── html-anything/
-│       └── find-skills/
+│   └── skills/            ← 29 skill folders
 ├── assets/
 │   └── imgs/
-└── wiki/
-    ├── 1.project/
-    │   ├── BuddhismZen/      ← Buddhism Zen notes and images
-    │   ├── LeetCode/         ← LeetCode solutions
-    │   │   └── leetCode20.js
-    │   ├── NoteBookZen/      ← NoteBookZen frontend app
-    │   ├── NotebookPureLogic/← NotebookPureLogic project
-    │   ├── Simplified-DSA/   ← Data Structures and Algorithms curriculum project
-    │   ├── cinema/           ← Cinema project
-    │   └── job-hunt.md       ← Job hunting tracker
-    ├── 2.area/
-    │   ├── blockers.md       ← Master tracker for blockers and plans
-    │   ├── daily-schedule.md ← Daily routines and rules
-    │   ├── me.md             ← Profile, values, habits, learning, financial goals
-    │   └── solopreneur/      ← Solopreneur project workflows
+└── wiki/                  ← PARA knowledge base
+    ├── 1.project/         ← active projects (empty — no projects yet)
+    ├── 2.area/            ← ongoing responsibilities
+    │   ├── blockers.md
+    │   ├── daily-schedule.md
+    │   ├── me.md
+    │   └── solopreneur/
     │       ├── build.md
     │       ├── idea.md
     │       ├── iterate-kill.md
     │       ├── ship.md
     │       └── workflow.md
-    ├── 3.resource/
-    │   ├── Buddhism Zen/     ← Buddhism Zen notes, images, and visual artifacts
-    │   │   ├── Buddhism zen.md
-    │   │   └── Images.md
+    ├── 3.resource/        ← reference material
     │   ├── bookmarks.md
     │   ├── command/
-    │   │   ├── docker.md     ← Docker: run, build, compose
-    │   │   ├── git.md        ← Git: branches, commits, rebase
-    │   │   ├── kubernetes.md ← kubectl: pods, services, ingress
-    │   │   └── terraform.md  ← TF: init, plan, apply, state
-    │   ├── history/
-    │   ├── person/
+    │   │   ├── docker.md
+    │   │   ├── git.md
+    │   │   ├── kubernetes.md
+    │   │   └── terraform.md
     │   ├── snippet/
-    │   │   ├── bash.md       ← Shell scripts: template, loops, API calls
-    │   │   ├── docker.md     ← Dockerfiles: Node, Python, Compose
-    │   │   ├── kubernetes.md ← Manifests: Deployment, Service, Ingress
-    │   │   └── terraform.md  ← HCL: provider, EC2, S3, VPC, RDS
-    │   ├── tools/
+    │   │   ├── bash.md
+    │   │   ├── docker.md
+    │   │   ├── kubernetes.md
+    │   │   └── terraform.md
     │   ├── design/
     │   │   └── reference/
+    │   ├── history/
+    │   ├── person/
     │   ├── prompt/
     │   │   ├── code/
     │   │   ├── design/
     │   │   ├── image/
     │   │   └── video/
+    │   ├── tools/
     │   └── reverse-engineer/
-    └── 4.archive/
+    └── 4.archive/         ← inactive items (empty)
 ```
 
 ---
@@ -143,8 +111,8 @@ note-2/
 
 | Category         | Count |
 | ---------------- | ----- |
-| Root files       | 6     |
-| Templates        | 24    |
-| Wiki folders     | 22    |
-| Skills           | 18    |
-| .opencode config | 1     |
+| Root files       | 7     |
+| Templates        | 27    |
+| Wiki files       | 17    |
+| Skills           | 29    |
+| Inbox            | 1     |

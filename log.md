@@ -3,7 +3,7 @@ title: "second-brain-template-dev — Change Log"
 aliases: []
 tags: []
 created: 2026-06-09T14:22:00Z
-updated: 2026-06-10T16:26:00Z
+updated: 2026-06-10T16:27:00Z
 type: "literature-note"
 id: "202606091422"
 source: ""
@@ -16,6 +16,12 @@ source: ""
 ---
 
 ## 2026-06-10
+
+### 16:27 — fix index.md to match actual disk
+
+- Problem → `index.md` still had old vault name `note-2/`, listed fake projects (BuddhismZen, LeetCode, NoteBookZen, etc.) that don't exist on disk, missing `.opencode/` and `assets/`
+- Fix → rewrote entire index.md to reflect actual file system state: `1.project/` empty, `4.archive/` empty, correct counts, correct structure
+- Why → index.md must match reality — template repo has no projects yet
 
 ### 16:26 — created wiki/4.archive/
 
